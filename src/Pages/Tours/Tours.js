@@ -5,20 +5,10 @@ import Tour from './Tour/Tour';
 
 const Tours = () => {
     const [tours, setTours] = useState([])
-    // axios.post('http://localhost:5000/services', data)
-    // .then(res => {
-    //     if (res.data.insertedId) {
-    //         alert('added successfully');
-    //         reset();
-    //     }
-    // })
     useEffect(() => {
         axios.get('https://gruesome-cat-12788.herokuapp.com/tours')
             .then(res => {
-                // console.log(res)
                 setTours(res.data);
-                // console.log(tours)
-
             })
     }, []);
     return (

@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Tour = ({tour}) => {
+const Tour = ({ tour }) => {
     const { _id, name, price, description, img } = tour;
 
     return (
@@ -22,8 +23,13 @@ const Tour = ({tour}) => {
                     </div>
                 </div>
                 {/* <!-- Product actions--> */}
+
                 <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                    <div className="text-center">
+                        <Link to={`/booking/${_id}`}>
+                            <button className="btn btn-outline-dark mt-auto">Book </button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
