@@ -1,0 +1,18 @@
+.banner-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("https://i.ibb.co/LhKjfSw/page-header-contact.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:50vh ;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-blend-mode: multiply;
+
+}
+
+.banner-container h1{
+   font-size: 96px;
+   z-index:100;
+}

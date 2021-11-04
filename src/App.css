@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 } */
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #7c859b;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 500;
+}
+.bg-tripo{
+  background-color:#ffa801;
+
+}

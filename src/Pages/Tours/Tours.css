@@ -1,11 +1,20 @@
-.card-images{
-    position:relative;
-  
+.card-images {
+    position: relative;
+
 }
-.card-titles{
-    color:white;
-    width:100%;
-    position:absolute;
-    bottom:0;
-    padding:10px;
+
+.card-titles {
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.tour-heading {
+    margin: 0;
+    color: #082740 !important;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1em;
 }

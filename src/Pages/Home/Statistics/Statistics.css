@@ -1,0 +1,23 @@
+.funfact-one {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color:#ffa801;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+
+
+.funfact-one__single {
+    margin-bottom: 30px;
+}
+
+.funfact-one__single h3 {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: var(--thm-font);
+    line-height: 1em;
+}
